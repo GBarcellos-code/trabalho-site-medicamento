@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4559a0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#medicamentosContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.medicamento-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+button {
+    padding: 12px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #314fba;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #2d3f7e;
+}
+#dashboard {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #e4e8f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#dashboard h2 {
+    color: #314fba;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.dashboard-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    margin-top: 8px;
+}
+
+.header {
+    width: 100%;
+    background-color: #4559a0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header-name {
+    font-size: large;
+    margin-left: -800px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.header-center {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #bdbdbd;
+}
+
+body {
+    margin-top: 100px;
+}
+.rodape {
+    width: 100%;
+    background-color: #4559a0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem
+}

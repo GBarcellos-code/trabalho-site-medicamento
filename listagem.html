@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Medicamentos</title>
+    <link rel="stylesheet" href="styles-listagem.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="header-left">
+            <img src="imagem/IMG_0301.png" alt="Foto ProPharma" class="profile-image">
+        </div>
+        <div class="header-name">
+            <p>PRO PHARMA</p>
+        </div>
+        <nav class="header-center">
+            <a href="index.html" class="nav-link">Página de Cadastro</a>
+            <a href="listagem.html" class="nav-link">Lista de Medicamentos</a>
+            <a href="https://www.dismed.com.br/" class="nav-link">Fornecedor</a>
+        </nav>
+        <div class="contact-info">
+            <p><strong>Contato:</strong> (XX) XXXX-XXXX</p>
+            <p><strong>Técnico:</strong> (XX) XXXX-XXXX</p>
+            <p><strong>Fornecedor:</strong> (XX) XXXX-XXXX</p>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <h1>Medicamentos Cadastrados</h1>
+        
+        <input type="text" id="search" placeholder="Buscar medicamentos..." oninput="filterMedicamentos()">
+        
+        
+        <div id="dashboard">
+            <h2>Painel de Controle</h2>
+            <div class="dashboard-item">
+                <span>Total de Medicamentos:</span>
+                <span id="totalMedicamentos">0</span>
+            </div>
+            <div class="dashboard-item">
+                <span>Medicamentos Controlados:</span>
+                <span id="totalControlados">0</span>
+            </div>
+        </div>
+        <div id="medicamentosContainer"></div>
+
+        <button onclick="window.location.href='index.html'">Voltar para Cadastro</button>
+    </div>
+    <footer class="rodape">
+        <p>Desenvolvido por Gabriel Barcellos &copy; 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
